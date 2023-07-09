@@ -184,7 +184,7 @@ func ExtractFewestWords(speeches []Speech) (string, error) {
 	}
 
 	fewestWords := ""
-	fewest := math.MaxUint64
+	fewest := math.MaxInt64
 
 	for k, v := range speakers {
 		if v < fewest {
